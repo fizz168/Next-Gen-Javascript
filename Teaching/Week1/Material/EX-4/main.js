@@ -17,14 +17,21 @@ int main() {
 */
 
 // JavaScript Implementation:
+// let student = {
+//   name: "Visal",
+//   age: 18,
+// };
+
+// console.log("Name:", student.name);
+// console.log("Age:", student.age);
+
+// // Display output in the page
+// let output = `Name: ${student.name}\nAge: ${student.age}`
+// console.log(output);
 let student = {
-  name: "Visal",
-  age: 18,
+  name : "visal",
+  age : 18,
 };
+console.log("name :",student.name);
+console.log("age :", student.age);
 
-console.log("Name:", student.name);
-console.log("Age:", student.age);
-
-// Display output in the page
-let output = `Name: ${student.name}\nAge: ${student.age}`
-console.log(output);

@@ -18,3 +18,11 @@ int main() {
 */
 
 // JavaScript Implementation:
+let score = 75;
+if (score >= 90){
+    console.log("Grade A");
+}else if (score >= 80){
+    console.log("grade B");
+}else{
+    console.log("grade c or below");
+}
