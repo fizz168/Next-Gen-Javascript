@@ -18,3 +18,16 @@ int main() {
 */
 
 // Your JavaScript code here:
+let grade = "B";
+switch(grade){
+    case "A":
+        console.log("excellent");
+        break;
+        case "B" :
+            console.log("good");
+            break;
+            case "C":
+                console.log("fair");
+                default :
+                console.log("Fail");
+}

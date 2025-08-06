@@ -26,3 +26,34 @@ int main() {
 */
 
 // Your JavaScript code here:
+// const student1 = {
+//     name : "alice",
+//     age : 20,
+// };
+// const student2 = {
+//     name : "bob",
+//     age : 22,
+// };
+// const student3 = {
+//     name : "charlie",
+//     age : 21,
+// };
+// const students = [student1, student2, student3];
+// for(const s of students){
+//     console.log("student");
+//     for(const key in s){
+//         console.log(`${key} : ${s[key]}`);
+//     }
+//     console.log("-------");
+//     } //idk what im doing hahah
+const student =[
+    {name : "Alice", age : 20},
+    {name : "Bob", age : 22},
+    {name : "charlie", age : 21},
+];
+for (const s of student){
+    console.log(s.name);
+}
+
+
+
